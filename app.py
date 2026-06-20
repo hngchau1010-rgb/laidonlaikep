@@ -5,10 +5,10 @@ st.set_page_config(
     page_icon="Hoàng Châu.jpg"
 )
 # Tiêu đề ứng dụng
-st.title("💰 Ứng dụng tính tiền gửi tiết kiệm_Hoàng Châu")
+col1, col2 = st.columns([1, 6])
 
 with col1:
-    st.image("Hoàng Châu.jpg", width=432)
+    st.image("Hoàng Châu.jpg", width=430)
 
 with col2:
     st.title("Ứng dụng tính tiền gửi tiết kiệm_Hoàng Châu")
