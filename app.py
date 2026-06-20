@@ -9,6 +9,9 @@ st.title("💰 Ứng dụng tính tiền gửi tiết kiệm_Hoàng Châu")
 
 with col1:
     st.image("Hoàng Châu.JPG", width=432)
+
+with col2:
+    st.title("Ứng dụng tính tiền gửi tiết kiệm_Hoàng Châu")
     
 # Nhập dữ liệu
 C = st.number_input(
